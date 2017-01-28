@@ -1,8 +1,8 @@
-package com.company.DesignPattern;
+package com.company.designPattern.command;
 
-import com.company.DesignPattern.concreteCommand.Close;
-import com.company.DesignPattern.concreteCommand.Open;
-import com.company.DesignPattern.concreteCommand.Save;
+import com.company.designPattern.command.concreteCommand.Close;
+import com.company.designPattern.command.concreteCommand.Open;
+import com.company.designPattern.command.concreteCommand.Save;
 
 /**
  * Created by lee on 2017. 1. 13..

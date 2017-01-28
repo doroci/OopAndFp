@@ -1,7 +1,7 @@
-package com.company.DesignPattern.concreteCommand;
+package com.company.designPattern.command.concreteCommand;
 
-import com.company.DesignPattern.Command;
-import com.company.DesignPattern.Receiver;
+import com.company.designPattern.command.Command;
+import com.company.designPattern.command.Receiver;
 
 /**
  * Created by lee on 2017. 1. 13..

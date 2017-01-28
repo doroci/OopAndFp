@@ -1,4 +1,4 @@
-package com.company.DesignPattern;
+package com.company.designPattern.command;
 
 /**
  * Created by lee on 2017. 1. 13..

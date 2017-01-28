@@ -1,23 +1,24 @@
-package com.company.DesignPattern.concreteCommand;
+package com.company.designPattern.command.concreteCommand;
 
-import com.company.DesignPattern.Command;
-import com.company.DesignPattern.Receiver;
+import com.company.designPattern.command.Command;
+import com.company.designPattern.command.Receiver;
 
 /**
  * Created by lee on 2017. 1. 13..
  */
 
 // Receiver 생성자를 통해 주입을 하고, Command 상속하여 구처적인 Receiver 일을 수행한다.
-public class Save implements Command{
+public class Open implements Command {
 
     private final Receiver receiver;
 
-    public Save(Receiver receiver){
+    public Open(Receiver receiver){
         this.receiver = receiver;
     }
 
+
     @Override
     public void perform() {
-        receiver.save();
+        receiver.open();
     }
 }

@@ -1,14 +1,10 @@
 # Object-Oriented vs Functional Programming
 
-![커맨드패턴](./images/commandPattern.jpg)
-
 ## This is free book
-```
-http://www.oreilly.com
-```
+`http://www.oreilly.com`
 
 ## Reference
-```
-http://www.oreilly.com/pub/e/3316
-```
+`http://www.oreilly.com/pub/e/3316`
 
+-  defaultMethod
+   - https://www.slideshare.net/gyumee/8-37599530
